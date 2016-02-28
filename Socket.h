@@ -12,6 +12,7 @@ class Socket
     ~Socket();
   
     int getfd() const { return sockfd_; }
+    void bindAddress(const );
     
   private:
     const int sockfd_;
