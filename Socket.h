@@ -3,6 +3,8 @@
 
 #include <sys/socket.h>
 
+namespace muaiwu
+{
 class Socket
 {
   public:
@@ -14,6 +16,6 @@ class Socket
   private:
     const int sockfd_;
 }
-
+}
 
 #endif
