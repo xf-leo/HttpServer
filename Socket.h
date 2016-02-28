@@ -9,7 +9,7 @@ class Socket
     explicit Socket(int fd);
     ~Socket();
   
-    int getfd() const;
+    int getfd() const { return sockfd_; }
     
   private:
     const int sockfd_;
